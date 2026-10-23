@@ -1,0 +1,3 @@
+C:/khue/code/build/CMakeFiles/inOneWeekend.dir
+C:/khue/code/build/CMakeFiles/edit_cache.dir
+C:/khue/code/build/CMakeFiles/rebuild_cache.dir
