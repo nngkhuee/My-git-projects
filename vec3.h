@@ -1,5 +1,3 @@
-// *vec3 class
-
 #ifndef VEC3_H
 #define VEC3_H
 
@@ -48,7 +46,7 @@ class vec3 {
     }
 };
 
-// point3 
+// point3 is just an alias for vec3, but useful for geometric clarity in the code.
 using point3 = vec3;
 
 
@@ -99,59 +97,3 @@ inline vec3 unit_vector(const vec3& v) {
 }
 
 #endif
-
-// ** 3.1 Color Utility Functions
-
-#ifndef COLOR_H
-#define COLOR_H
-
-#include "vec3.h"
-
-#include <iostream>
-
-using color = vec3;
-
-void write_color(std::ostream& out, const color& pixel_color) {
-    auto r = pixel_color.x();
-    auto g = pixel_color.y();
-    auto b = pixel_color.z();
-
-    // Translate the [0,1] component values to the byte range [0,255].
-    int rbyte = int(255.999 * r);
-    int gbyte = int(255.999 * g);
-    int bbyte = int(255.999 * b);
-
-    // Write out the pixel color components.
-    out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';
-}
-
-#endif
-
-
-// ***Final code to produce image
-#include "color.h"
-#include "vec3.h"
-
-#include <iostream>
-
-int main() {
-
-    // Image
-
-    int image_width = 256;
-    int image_height = 256;
-
-    // Render
-
-    std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
-
-    for (int j = 0; j < image_height; j++) {
-        std::clog << "\rScanlines remaining: " << (image_height - j) << ' ' << std::flush;
-        for (int i = 0; i < image_width; i++) {
-            auto pixel_color = color(double(i)/(image_width-1), double(j)/(image_height-1), 0);
-            write_color(std::cout, pixel_color);
-        }
-    }
-
-    std::clog << "\rDone.                 \n";
-}

@@ -74,28 +74,28 @@ include CMakeFiles/inOneWeekend.dir/flags.make
 CMakeFiles/inOneWeekend.dir/codegen:
 .PHONY : CMakeFiles/inOneWeekend.dir/codegen
 
-CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj: CMakeFiles/inOneWeekend.dir/flags.make
-CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj: C:/khue/code/3-d-model.cpp
-CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj: CMakeFiles/inOneWeekend.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\khue\code\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj -MF CMakeFiles\inOneWeekend.dir\3-d-model.cpp.obj.d -o CMakeFiles\inOneWeekend.dir\3-d-model.cpp.obj -c C:\khue\code\3-d-model.cpp
+CMakeFiles/inOneWeekend.dir/main.cpp.obj: CMakeFiles/inOneWeekend.dir/flags.make
+CMakeFiles/inOneWeekend.dir/main.cpp.obj: C:/khue/code/main.cpp
+CMakeFiles/inOneWeekend.dir/main.cpp.obj: CMakeFiles/inOneWeekend.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\khue\code\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/inOneWeekend.dir/main.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/inOneWeekend.dir/main.cpp.obj -MF CMakeFiles\inOneWeekend.dir\main.cpp.obj.d -o CMakeFiles\inOneWeekend.dir\main.cpp.obj -c C:\khue\code\main.cpp
 
-CMakeFiles/inOneWeekend.dir/3-d-model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/inOneWeekend.dir/3-d-model.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\khue\code\3-d-model.cpp > CMakeFiles\inOneWeekend.dir\3-d-model.cpp.i
+CMakeFiles/inOneWeekend.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/inOneWeekend.dir/main.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\khue\code\main.cpp > CMakeFiles\inOneWeekend.dir\main.cpp.i
 
-CMakeFiles/inOneWeekend.dir/3-d-model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/inOneWeekend.dir/3-d-model.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\khue\code\3-d-model.cpp -o CMakeFiles\inOneWeekend.dir\3-d-model.cpp.s
+CMakeFiles/inOneWeekend.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/inOneWeekend.dir/main.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\khue\code\main.cpp -o CMakeFiles\inOneWeekend.dir\main.cpp.s
 
 # Object files for target inOneWeekend
 inOneWeekend_OBJECTS = \
-"CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj"
+"CMakeFiles/inOneWeekend.dir/main.cpp.obj"
 
 # External object files for target inOneWeekend
 inOneWeekend_EXTERNAL_OBJECTS =
 
-inOneWeekend.exe: CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj
+inOneWeekend.exe: CMakeFiles/inOneWeekend.dir/main.cpp.obj
 inOneWeekend.exe: CMakeFiles/inOneWeekend.dir/build.make
 inOneWeekend.exe: CMakeFiles/inOneWeekend.dir/linkLibs.rsp
 inOneWeekend.exe: CMakeFiles/inOneWeekend.dir/objects1.rsp

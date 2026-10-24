@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj"
-  "CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj.d"
+  "CMakeFiles/inOneWeekend.dir/main.cpp.obj"
+  "CMakeFiles/inOneWeekend.dir/main.cpp.obj.d"
   "inOneWeekend.exe"
   "inOneWeekend.exe.manifest"
   "inOneWeekend.pdb"

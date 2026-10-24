@@ -3,4 +3,4 @@ project(inOneWeekend)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(inOneWeekend "3-d-model.cpp")
+add_executable(inOneWeekend "main.cpp")

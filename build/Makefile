@@ -139,29 +139,29 @@ test_prep/all: cmake_check_build_system
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_prep/all
 .PHONY : test_prep/all
 
-3-d-model.obj: 3-d-model.cpp.obj
-.PHONY : 3-d-model.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-3-d-model.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOneWeekend.dir\build.make CMakeFiles/inOneWeekend.dir/3-d-model.cpp.obj
-.PHONY : 3-d-model.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOneWeekend.dir\build.make CMakeFiles/inOneWeekend.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-3-d-model.i: 3-d-model.cpp.i
-.PHONY : 3-d-model.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-3-d-model.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOneWeekend.dir\build.make CMakeFiles/inOneWeekend.dir/3-d-model.cpp.i
-.PHONY : 3-d-model.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOneWeekend.dir\build.make CMakeFiles/inOneWeekend.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-3-d-model.s: 3-d-model.cpp.s
-.PHONY : 3-d-model.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-3-d-model.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOneWeekend.dir\build.make CMakeFiles/inOneWeekend.dir/3-d-model.cpp.s
-.PHONY : 3-d-model.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inOneWeekend.dir\build.make CMakeFiles/inOneWeekend.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -172,9 +172,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... inOneWeekend
-	@echo ... 3-d-model.obj
-	@echo ... 3-d-model.i
-	@echo ... 3-d-model.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
